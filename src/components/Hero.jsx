@@ -128,22 +128,26 @@ const Hero = ({ language, t }) => {
 
   const slides = [
     {
-      image: "/src/assets/gold_necklace.png",
+      image: "/assets/gold_necklace.png",
+
       heading: language === 'en' ? "Exquisite Gold Necklaces" : "అద్భుతమైన స్వర్ణ హారాలు",
       subheading: language === 'en' ? "Handcrafted heritage designs for special occasions" : "విశిష్టమైన శుభకార్యాల కొరకు ప్రత్యేక శైలి నమూనాలు"
     },
     {
-      image: "/src/assets/bridal_set.png",
+      image: "/assets/bridal_set.png",
+
       heading: language === 'en' ? "Exclusive Bridal Collections" : "వివాహ ఆభరణాల ప్రత్యేక కలెక్షన్",
       subheading: language === 'en' ? "Timeless jewelry sets to celebrate your special day" : "మీ జీవితంలోని అతి ముఖ్యమైన వేడుకకు నిత్యనూతన ఆభరణాలు"
     },
     {
-      image: "/src/assets/gold_bangle.png",
+      image: "/assets/gold_bangle.png",
+
       heading: language === 'en' ? "Traditional Gold Bangles" : "సాంప్రదాయ సువర్ణ గాజులు",
       subheading: language === 'en' ? "Nellore filigree craftsmanship passed down generations" : "తరాల నాటి నెల్లూరు ఫిలిగ్రీ కళాకారుల హస్తకళా నైపుణ్యం"
     },
     {
-      image: "/src/assets/gold_ring.png",
+      image: "/assets/gold_ring.png",
+
       heading: language === 'en' ? "Certified Diamond & Gold Rings" : "ధ్రువీకరించబడిన డైమండ్ & గోల్డ్ రింగ్స్",
       subheading: language === 'en' ? "Celebrate milestones with premium certified purity" : "పరిశుద్ధమైన నాణ్యతతో మీ ఆనంద సమయాలను పదిలం చేసుకోండి"
     }
